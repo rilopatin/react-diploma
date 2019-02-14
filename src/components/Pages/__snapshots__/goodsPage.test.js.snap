@@ -1,0 +1,832 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GoodsPage/> CoffeePage has been rendered correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CoffeePage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="banner"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-6"
+              >
+                <Header />
+              </div>
+            </div>
+            <h1
+              className="title-big"
+            >
+              For your pleasure
+            </h1>
+          </div>
+        </div>,
+        <div
+          className="shop"
+        >
+          <div
+            className="container"
+          >
+            <AboutProductComponent
+              imgSrc="coffee_cup.png"
+              text={
+                <div
+                  className="shop__text"
+                >
+                  Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                  <br />
+                  Afraid at highly months do things on at. Situation recommend objection do intention
+                  <br />
+                  so questions. 
+                  <br />
+                  As greatly removed calling pleased improve an. Last ask him cold feel
+                  <br />
+                  met spot shy want. Children me laughing we prospect answered followed. At it went
+                  <br />
+                  is song that held help face.
+                </div>
+              }
+            />
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-10 offset-lg-1"
+              >
+                <ItemListComponent
+                  classes={
+                    Array [
+                      "shop__item",
+                      "shop__item-title",
+                      "shop__item-price",
+                      "shop__wrapper",
+                    ]
+                  }
+                  getData={[Function]}
+                  renderItem={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>,
+        <Footer />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-6"
+              >
+                <Header />
+              </div>
+            </div>
+            <h1
+              className="title-big"
+            >
+              For your pleasure
+            </h1>
+          </div>,
+          "className": "banner",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>
+              </div>,
+              <h1
+                className="title-big"
+              >
+                For your pleasure
+              </h1>,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>,
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Header />,
+                  "className": "col-lg-6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "For your pleasure",
+                "className": "title-big",
+              },
+              "ref": null,
+              "rendered": "For your pleasure",
+              "type": "h1",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <AboutProductComponent
+              imgSrc="coffee_cup.png"
+              text={
+                <div
+                  className="shop__text"
+                >
+                  Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                  <br />
+                  Afraid at highly months do things on at. Situation recommend objection do intention
+                  <br />
+                  so questions. 
+                  <br />
+                  As greatly removed calling pleased improve an. Last ask him cold feel
+                  <br />
+                  met spot shy want. Children me laughing we prospect answered followed. At it went
+                  <br />
+                  is song that held help face.
+                </div>
+              }
+            />
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-10 offset-lg-1"
+              >
+                <ItemListComponent
+                  classes={
+                    Array [
+                      "shop__item",
+                      "shop__item-title",
+                      "shop__item-price",
+                      "shop__wrapper",
+                    ]
+                  }
+                  getData={[Function]}
+                  renderItem={[Function]}
+                />
+              </div>
+            </div>
+          </div>,
+          "className": "shop",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <AboutProductComponent
+                imgSrc="coffee_cup.png"
+                text={
+                  <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>
+                }
+              />,
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <ItemListComponent
+                    classes={
+                      Array [
+                        "shop__item",
+                        "shop__item-title",
+                        "shop__item-price",
+                        "shop__wrapper",
+                      ]
+                    }
+                    getData={[Function]}
+                    renderItem={[Function]}
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "imgSrc": "coffee_cup.png",
+                "text": <div
+                  className="shop__text"
+                >
+                  Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                  <br />
+                  Afraid at highly months do things on at. Situation recommend objection do intention
+                  <br />
+                  so questions. 
+                  <br />
+                  As greatly removed calling pleased improve an. Last ask him cold feel
+                  <br />
+                  met spot shy want. Children me laughing we prospect answered followed. At it went
+                  <br />
+                  is song that held help face.
+                </div>,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <ItemListComponent
+                    classes={
+                      Array [
+                        "shop__item",
+                        "shop__item-title",
+                        "shop__item-price",
+                        "shop__wrapper",
+                      ]
+                    }
+                    getData={[Function]}
+                    renderItem={[Function]}
+                  />
+                </div>,
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ItemListComponent
+                    classes={
+                      Array [
+                        "shop__item",
+                        "shop__item-title",
+                        "shop__item-price",
+                        "shop__wrapper",
+                      ]
+                    }
+                    getData={[Function]}
+                    renderItem={[Function]}
+                  />,
+                  "className": "col-lg-10 offset-lg-1",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "classes": Array [
+                      "shop__item",
+                      "shop__item-title",
+                      "shop__item-price",
+                      "shop__wrapper",
+                    ],
+                    "getData": [Function],
+                    "renderItem": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="banner"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>
+              </div>
+              <h1
+                className="title-big"
+              >
+                For your pleasure
+              </h1>
+            </div>
+          </div>,
+          <div
+            className="shop"
+          >
+            <div
+              className="container"
+            >
+              <AboutProductComponent
+                imgSrc="coffee_cup.png"
+                text={
+                  <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>
+                }
+              />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <ItemListComponent
+                    classes={
+                      Array [
+                        "shop__item",
+                        "shop__item-title",
+                        "shop__item-price",
+                        "shop__wrapper",
+                      ]
+                    }
+                    getData={[Function]}
+                    renderItem={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>,
+          <Footer />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>
+              </div>
+              <h1
+                className="title-big"
+              >
+                For your pleasure
+              </h1>
+            </div>,
+            "className": "banner",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-lg-6"
+                  >
+                    <Header />
+                  </div>
+                </div>,
+                <h1
+                  className="title-big"
+                >
+                  For your pleasure
+                </h1>,
+              ],
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-lg-6"
+                  >
+                    <Header />
+                  </div>,
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Header />,
+                    "className": "col-lg-6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "For your pleasure",
+                  "className": "title-big",
+                },
+                "ref": null,
+                "rendered": "For your pleasure",
+                "type": "h1",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <AboutProductComponent
+                imgSrc="coffee_cup.png"
+                text={
+                  <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>
+                }
+              />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <ItemListComponent
+                    classes={
+                      Array [
+                        "shop__item",
+                        "shop__item-title",
+                        "shop__item-price",
+                        "shop__wrapper",
+                      ]
+                    }
+                    getData={[Function]}
+                    renderItem={[Function]}
+                  />
+                </div>
+              </div>
+            </div>,
+            "className": "shop",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <AboutProductComponent
+                  imgSrc="coffee_cup.png"
+                  text={
+                    <div
+                      className="shop__text"
+                    >
+                      Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                      <br />
+                      Afraid at highly months do things on at. Situation recommend objection do intention
+                      <br />
+                      so questions. 
+                      <br />
+                      As greatly removed calling pleased improve an. Last ask him cold feel
+                      <br />
+                      met spot shy want. Children me laughing we prospect answered followed. At it went
+                      <br />
+                      is song that held help face.
+                    </div>
+                  }
+                />,
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-lg-10 offset-lg-1"
+                  >
+                    <ItemListComponent
+                      classes={
+                        Array [
+                          "shop__item",
+                          "shop__item-title",
+                          "shop__item-price",
+                          "shop__wrapper",
+                        ]
+                      }
+                      getData={[Function]}
+                      renderItem={[Function]}
+                    />
+                  </div>
+                </div>,
+              ],
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "imgSrc": "coffee_cup.png",
+                  "text": <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-lg-10 offset-lg-1"
+                  >
+                    <ItemListComponent
+                      classes={
+                        Array [
+                          "shop__item",
+                          "shop__item-title",
+                          "shop__item-price",
+                          "shop__wrapper",
+                        ]
+                      }
+                      getData={[Function]}
+                      renderItem={[Function]}
+                    />
+                  </div>,
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ItemListComponent
+                      classes={
+                        Array [
+                          "shop__item",
+                          "shop__item-title",
+                          "shop__item-price",
+                          "shop__wrapper",
+                        ]
+                      }
+                      getData={[Function]}
+                      renderItem={[Function]}
+                    />,
+                    "className": "col-lg-10 offset-lg-1",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "classes": Array [
+                        "shop__item",
+                        "shop__item-title",
+                        "shop__item-price",
+                        "shop__wrapper",
+                      ],
+                      "getData": [Function],
+                      "renderItem": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

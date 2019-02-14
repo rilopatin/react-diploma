@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACb,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["itemPage.sass"],
+"names": [],
+"file": "itemPage.css"
+}
