@@ -1,14 +1,25 @@
 import React, {Component} from 'react'
 
 import './coffeepage.sass'
-import coffee_cup from '../../img/coffee_cup.png'
 
+import styled from 'styled-components'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import ItemListComponent from '../../components/itemListComponent'
 import ErrorMessage from '../../components/errorMessage'
 import CoffeeService from '../../services/coffeeService'
 import AboutProductComponent from '../../components/aboutProductComponent'
+
+const url = process.env.PUBLIC_URL + '/img/Coffee_bg.jpg';
+
+const Banner = styled.div`
+    background: url(${url}) no-repeat;
+    height: 260px;
+    background-size: cover;
+    h1 {
+        margin-top: 60px;
+    }
+    `
 
 export default class CoffeePage extends Component {
 
@@ -56,7 +67,7 @@ export default class CoffeePage extends Component {
 
         return (
             <>
-                <div className="banner">
+                <Banner className="banner">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
@@ -65,11 +76,11 @@ export default class CoffeePage extends Component {
                         </div>
                         <h1 className="title-big">For your pleasure</h1>
                     </div>
-                </div>
+                </Banner>
                 <div className="shop">
                     <div className="container">
 
-                        <AboutProductComponent text = {this.text} imgSrc = {coffee_cup}/>
+                        <AboutProductComponent text = {this.text} imgSrc = {process.env.PUBLIC_URL + '/img/coffee_cup.png'}/>
 
                         <div className="row">
                             <div className="col-lg-10 offset-lg-1">

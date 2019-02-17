@@ -2,6 +2,7 @@ import React, {Component} from "react"
 
 import './mainpage.sass'
 
+import styled from 'styled-components'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import JumbotronComponent from '../../components/jumbotronComponent'
@@ -9,6 +10,24 @@ import AboutUsComponent from '../../components/aboutUsComponent'
 import ItemListComponent from '../../components/itemListComponent'
 import ErrorMessage from '../../components/errorMessage'
 import CoffeeService from '../../services/coffeeService'
+
+const urlMain = process.env.PUBLIC_URL + '/img/Main_bg.jpg'
+const urlPaper = process.env.PUBLIC_URL + '/img/paper.jpg'
+
+const Preview = styled.div`
+    background: url(${urlMain}) no-repeat;
+    height: 640px;
+    background-size: cover;
+    h1 {
+        margin-top: 100px;
+    }
+    `
+const Best = styled.div`
+    padding: 80px 0 110px 0
+    background-color: #fff
+    background: url(${urlPaper}) center center no-repeat
+    background-size: cover
+`
 
 export default class MainPage extends Component {
 
@@ -42,7 +61,7 @@ export default class MainPage extends Component {
 
          return (
              <>
-                 <div className="preview">
+                 <Preview className="preview">
                      <div className="container">
                          <div className="row">
                              <div className="col-lg-6">
@@ -53,9 +72,9 @@ export default class MainPage extends Component {
                              <JumbotronComponent/>
                          </div>
                      </div>
-                 </div>
+                 </Preview>
                  <AboutUsComponent/>
-                 <div className="best">
+                 <Best className="best">
                      <div className="container">
                          <div className="title">Our best</div>
                          <div className="row">
@@ -65,7 +84,7 @@ export default class MainPage extends Component {
                              </div>
                          </div>
                      </div>
-                 </div>
+                 </Best>
                  <Footer/>
              </>
          )

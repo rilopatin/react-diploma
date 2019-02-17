@@ -42,7 +42,7 @@ export default class ItemListComponent extends Component {
     }
 
     searchItem = (itemList, term) => {
-        if(!term || term.length === 0) {
+        if(!term || term.length === 0 || itemList == null) {
             return itemList
         }
         return itemList.filter((item) => {
@@ -50,12 +50,12 @@ export default class ItemListComponent extends Component {
         })
     }
 
-    filterItems = (itemList, filter) => {
-        if(!filter || filter.length === 0) {
+    filterItems = (itemList, filters) => {
+        if(!filters || filters.length === 0 || itemList == null) {
             return itemList
         }
         return itemList.filter((item) => {
-            return item.country === filter
+            return item.country === filters
         })
     }
 
@@ -90,7 +90,6 @@ export default class ItemListComponent extends Component {
     render ()  {
         const {itemList, loading, error} = this.state
         const {filter, term, classes} = this.props
-
         const filteredItems = this.filterItems(itemList, filter)
         const visiblePosts = this.searchItem(filteredItems, term)
 

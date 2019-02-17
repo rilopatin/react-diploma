@@ -19,7 +19,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <div
+        <ForwardRef
           className="preview"
         >
           <div
@@ -40,9 +40,9 @@ ShallowWrapper {
               <JumbotronComponent />
             </div>
           </div>
-        </div>,
+        </ForwardRef>,
         <AboutUsComponent />,
-        <div
+        <ForwardRef
           className="best"
         >
           <div
@@ -75,7 +75,7 @@ ShallowWrapper {
               </div>
             </div>
           </div>
-        </div>,
+        </ForwardRef>,
         <Footer />,
       ],
     },
@@ -84,7 +84,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
           "children": <div
             className="container"
@@ -190,7 +190,34 @@ ShallowWrapper {
           ],
           "type": "div",
         },
-        "type": "div",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    background: url(",
+              "/img/Main_bg.jpg",
+              ") no-repeat;
+    height: 640px;
+    background-size: cover;
+    h1 {
+        margin-top: 100px;
+    }
+    ",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
@@ -204,7 +231,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
           "children": <div
             className="container"
@@ -366,7 +393,32 @@ ShallowWrapper {
           ],
           "type": "div",
         },
-        "type": "div",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 80px 0 110px 0
+    background-color: #fff
+    background: url(",
+              "/img/paper.jpg",
+              ") center center no-repeat
+    background-size: cover
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
@@ -387,7 +439,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <div
+          <ForwardRef
             className="preview"
           >
             <div
@@ -408,9 +460,9 @@ ShallowWrapper {
                 <JumbotronComponent />
               </div>
             </div>
-          </div>,
+          </ForwardRef>,
           <AboutUsComponent />,
-          <div
+          <ForwardRef
             className="best"
           >
             <div
@@ -443,7 +495,7 @@ ShallowWrapper {
                 </div>
               </div>
             </div>
-          </div>,
+          </ForwardRef>,
           <Footer />,
         ],
       },
@@ -452,7 +504,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
             "children": <div
               className="container"
@@ -558,7 +610,34 @@ ShallowWrapper {
             ],
             "type": "div",
           },
-          "type": "div",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+    background: url(",
+                "/img/Main_bg.jpg",
+                ") no-repeat;
+    height: 640px;
+    background-size: cover;
+    h1 {
+        margin-top: 100px;
+    }
+    ",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
@@ -572,7 +651,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
             "children": <div
               className="container"
@@ -734,7 +813,32 @@ ShallowWrapper {
             ],
             "type": "div",
           },
-          "type": "div",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": true,
+              "rules": Array [
+                "
+    padding: 80px 0 110px 0
+    background-color: #fff
+    background: url(",
+                "/img/paper.jpg",
+                ") center center no-repeat
+    background-size: cover
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,

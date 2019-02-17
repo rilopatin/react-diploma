@@ -1,0 +1,994 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ItemListComponent/> ItemListComponent has been rendered correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItemListComponent
+    classes={
+      Array [
+        "shop__item",
+        "shop__item-title",
+        "shop__item-price",
+        "shop__wrapper",
+      ]
+    }
+    details={true}
+    filter=""
+    getData={[Function]}
+    renderItem={[Function]}
+    term=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        null,
+        null,
+        Array [
+          <li
+            className="shop__item"
+            onClick={[Function]}
+          >
+            <Link
+              replace={false}
+              to="/details/wqw1"
+            >
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />
+              <div
+                className="shop__item-title"
+              >
+                wqw1
+              </div>
+              <div
+                className="shop__item-country"
+              />
+              <div
+                className="shop__item-price"
+              />
+            </Link>
+          </li>,
+          <li
+            className="shop__item"
+            onClick={[Function]}
+          >
+            <Link
+              replace={false}
+              to="/details/wqw2"
+            >
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />
+              <div
+                className="shop__item-title"
+              >
+                wqw2
+              </div>
+              <div
+                className="shop__item-country"
+              />
+              <div
+                className="shop__item-price"
+              />
+            </Link>
+          </li>,
+          <li
+            className="shop__item"
+            onClick={[Function]}
+          >
+            <Link
+              replace={false}
+              to="/details/sdgf"
+            >
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />
+              <div
+                className="shop__item-title"
+              >
+                sdgf
+              </div>
+              <div
+                className="shop__item-country"
+              />
+              <div
+                className="shop__item-price"
+              />
+            </Link>
+          </li>,
+        ],
+      ],
+      "className": "shop__wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      null,
+      Object {
+        "instance": null,
+        "key": "wqw1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/details/wqw1"
+          >
+            <Img
+              alt="coffee"
+              container={[Function]}
+              decode={true}
+              loader={false}
+              src={Array []}
+              unloader={false}
+            />
+            <div
+              className="shop__item-title"
+            >
+              wqw1
+            </div>
+            <div
+              className="shop__item-country"
+            />
+            <div
+              className="shop__item-price"
+            />
+          </Link>,
+          "className": "shop__item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />,
+              <div
+                className="shop__item-title"
+              >
+                wqw1
+              </div>,
+              <div
+                className="shop__item-country"
+              />,
+              <div
+                className="shop__item-price"
+              />,
+            ],
+            "replace": false,
+            "to": "/details/wqw1",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "coffee",
+                "container": [Function],
+                "decode": true,
+                "loader": false,
+                "src": Array [],
+                "unloader": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "wqw1",
+                "className": "shop__item-title",
+              },
+              "ref": null,
+              "rendered": "wqw1",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": null,
+                "className": "shop__item-country",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "shop__item-price",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "wqw2",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/details/wqw2"
+          >
+            <Img
+              alt="coffee"
+              container={[Function]}
+              decode={true}
+              loader={false}
+              src={Array []}
+              unloader={false}
+            />
+            <div
+              className="shop__item-title"
+            >
+              wqw2
+            </div>
+            <div
+              className="shop__item-country"
+            />
+            <div
+              className="shop__item-price"
+            />
+          </Link>,
+          "className": "shop__item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />,
+              <div
+                className="shop__item-title"
+              >
+                wqw2
+              </div>,
+              <div
+                className="shop__item-country"
+              />,
+              <div
+                className="shop__item-price"
+              />,
+            ],
+            "replace": false,
+            "to": "/details/wqw2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "coffee",
+                "container": [Function],
+                "decode": true,
+                "loader": false,
+                "src": Array [],
+                "unloader": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "wqw2",
+                "className": "shop__item-title",
+              },
+              "ref": null,
+              "rendered": "wqw2",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": null,
+                "className": "shop__item-country",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "shop__item-price",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "sdgf",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/details/sdgf"
+          >
+            <Img
+              alt="coffee"
+              container={[Function]}
+              decode={true}
+              loader={false}
+              src={Array []}
+              unloader={false}
+            />
+            <div
+              className="shop__item-title"
+            >
+              sdgf
+            </div>
+            <div
+              className="shop__item-country"
+            />
+            <div
+              className="shop__item-price"
+            />
+          </Link>,
+          "className": "shop__item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />,
+              <div
+                className="shop__item-title"
+              >
+                sdgf
+              </div>,
+              <div
+                className="shop__item-country"
+              />,
+              <div
+                className="shop__item-price"
+              />,
+            ],
+            "replace": false,
+            "to": "/details/sdgf",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "coffee",
+                "container": [Function],
+                "decode": true,
+                "loader": false,
+                "src": Array [],
+                "unloader": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "sdgf",
+                "className": "shop__item-title",
+              },
+              "ref": null,
+              "rendered": "sdgf",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": null,
+                "className": "shop__item-country",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "shop__item-price",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          null,
+          Array [
+            <li
+              className="shop__item"
+              onClick={[Function]}
+            >
+              <Link
+                replace={false}
+                to="/details/wqw1"
+              >
+                <Img
+                  alt="coffee"
+                  container={[Function]}
+                  decode={true}
+                  loader={false}
+                  src={Array []}
+                  unloader={false}
+                />
+                <div
+                  className="shop__item-title"
+                >
+                  wqw1
+                </div>
+                <div
+                  className="shop__item-country"
+                />
+                <div
+                  className="shop__item-price"
+                />
+              </Link>
+            </li>,
+            <li
+              className="shop__item"
+              onClick={[Function]}
+            >
+              <Link
+                replace={false}
+                to="/details/wqw2"
+              >
+                <Img
+                  alt="coffee"
+                  container={[Function]}
+                  decode={true}
+                  loader={false}
+                  src={Array []}
+                  unloader={false}
+                />
+                <div
+                  className="shop__item-title"
+                >
+                  wqw2
+                </div>
+                <div
+                  className="shop__item-country"
+                />
+                <div
+                  className="shop__item-price"
+                />
+              </Link>
+            </li>,
+            <li
+              className="shop__item"
+              onClick={[Function]}
+            >
+              <Link
+                replace={false}
+                to="/details/sdgf"
+              >
+                <Img
+                  alt="coffee"
+                  container={[Function]}
+                  decode={true}
+                  loader={false}
+                  src={Array []}
+                  unloader={false}
+                />
+                <div
+                  className="shop__item-title"
+                >
+                  sdgf
+                </div>
+                <div
+                  className="shop__item-country"
+                />
+                <div
+                  className="shop__item-price"
+                />
+              </Link>
+            </li>,
+          ],
+        ],
+        "className": "shop__wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        null,
+        Object {
+          "instance": null,
+          "key": "wqw1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/details/wqw1"
+            >
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />
+              <div
+                className="shop__item-title"
+              >
+                wqw1
+              </div>
+              <div
+                className="shop__item-country"
+              />
+              <div
+                className="shop__item-price"
+              />
+            </Link>,
+            "className": "shop__item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Img
+                  alt="coffee"
+                  container={[Function]}
+                  decode={true}
+                  loader={false}
+                  src={Array []}
+                  unloader={false}
+                />,
+                <div
+                  className="shop__item-title"
+                >
+                  wqw1
+                </div>,
+                <div
+                  className="shop__item-country"
+                />,
+                <div
+                  className="shop__item-price"
+                />,
+              ],
+              "replace": false,
+              "to": "/details/wqw1",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "coffee",
+                  "container": [Function],
+                  "decode": true,
+                  "loader": false,
+                  "src": Array [],
+                  "unloader": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "wqw1",
+                  "className": "shop__item-title",
+                },
+                "ref": null,
+                "rendered": "wqw1",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": null,
+                  "className": "shop__item-country",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "shop__item-price",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "wqw2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/details/wqw2"
+            >
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />
+              <div
+                className="shop__item-title"
+              >
+                wqw2
+              </div>
+              <div
+                className="shop__item-country"
+              />
+              <div
+                className="shop__item-price"
+              />
+            </Link>,
+            "className": "shop__item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Img
+                  alt="coffee"
+                  container={[Function]}
+                  decode={true}
+                  loader={false}
+                  src={Array []}
+                  unloader={false}
+                />,
+                <div
+                  className="shop__item-title"
+                >
+                  wqw2
+                </div>,
+                <div
+                  className="shop__item-country"
+                />,
+                <div
+                  className="shop__item-price"
+                />,
+              ],
+              "replace": false,
+              "to": "/details/wqw2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "coffee",
+                  "container": [Function],
+                  "decode": true,
+                  "loader": false,
+                  "src": Array [],
+                  "unloader": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "wqw2",
+                  "className": "shop__item-title",
+                },
+                "ref": null,
+                "rendered": "wqw2",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": null,
+                  "className": "shop__item-country",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "shop__item-price",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "sdgf",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/details/sdgf"
+            >
+              <Img
+                alt="coffee"
+                container={[Function]}
+                decode={true}
+                loader={false}
+                src={Array []}
+                unloader={false}
+              />
+              <div
+                className="shop__item-title"
+              >
+                sdgf
+              </div>
+              <div
+                className="shop__item-country"
+              />
+              <div
+                className="shop__item-price"
+              />
+            </Link>,
+            "className": "shop__item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Img
+                  alt="coffee"
+                  container={[Function]}
+                  decode={true}
+                  loader={false}
+                  src={Array []}
+                  unloader={false}
+                />,
+                <div
+                  className="shop__item-title"
+                >
+                  sdgf
+                </div>,
+                <div
+                  className="shop__item-country"
+                />,
+                <div
+                  className="shop__item-price"
+                />,
+              ],
+              "replace": false,
+              "to": "/details/sdgf",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "coffee",
+                  "container": [Function],
+                  "decode": true,
+                  "loader": false,
+                  "src": Array [],
+                  "unloader": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "sdgf",
+                  "className": "shop__item-title",
+                },
+                "ref": null,
+                "rendered": "sdgf",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": null,
+                  "className": "shop__item-country",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "shop__item-price",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

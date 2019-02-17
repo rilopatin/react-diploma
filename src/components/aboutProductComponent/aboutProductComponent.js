@@ -9,7 +9,7 @@ const AboutProductComponent = ({text, imgSrc}) => {
                 </div>
                 <div className="col-lg-4">
                     <div className="title">About our beans</div>
-                    <img className="beanslogo" src={'/logo/Beans_logo_dark.svg'} alt="Beans logo"></img>
+                    <img className="beanslogo" src={process.env.PUBLIC_URL + '/logo/Beans_logo_dark.svg'} alt="Beans logo"></img>
                         {text}
                 </div>
             </div>

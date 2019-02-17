@@ -19,7 +19,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <div
+        <ForwardRef
           className="banner"
         >
           <div
@@ -40,7 +40,7 @@ ShallowWrapper {
               For your pleasure
             </h1>
           </div>
-        </div>,
+        </ForwardRef>,
         <div
           className="shop"
         >
@@ -48,7 +48,7 @@ ShallowWrapper {
             className="container"
           >
             <AboutProductComponent
-              imgSrc="coffee_cup.png"
+              imgSrc="/img/coffee_cup.png"
               text={
                 <div
                   className="shop__text"
@@ -97,7 +97,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
           "children": <div
             className="container"
@@ -195,7 +195,34 @@ ShallowWrapper {
           ],
           "type": "div",
         },
-        "type": "div",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    background: url(",
+              "/img/Coffee_bg.jpg",
+              ") no-repeat;
+    height: 260px;
+    background-size: cover;
+    h1 {
+        margin-top: 60px;
+    }
+    ",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
@@ -206,7 +233,7 @@ ShallowWrapper {
             className="container"
           >
             <AboutProductComponent
-              imgSrc="coffee_cup.png"
+              imgSrc="/img/coffee_cup.png"
               text={
                 <div
                   className="shop__text"
@@ -256,7 +283,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <AboutProductComponent
-                imgSrc="coffee_cup.png"
+                imgSrc="/img/coffee_cup.png"
                 text={
                   <div
                     className="shop__text"
@@ -305,7 +332,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "imgSrc": "coffee_cup.png",
+                "imgSrc": "/img/coffee_cup.png",
                 "text": <div
                   className="shop__text"
                 >
@@ -416,7 +443,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <div
+          <ForwardRef
             className="banner"
           >
             <div
@@ -437,7 +464,7 @@ ShallowWrapper {
                 For your pleasure
               </h1>
             </div>
-          </div>,
+          </ForwardRef>,
           <div
             className="shop"
           >
@@ -445,7 +472,7 @@ ShallowWrapper {
               className="container"
             >
               <AboutProductComponent
-                imgSrc="coffee_cup.png"
+                imgSrc="/img/coffee_cup.png"
                 text={
                   <div
                     className="shop__text"
@@ -494,7 +521,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
             "children": <div
               className="container"
@@ -592,7 +619,34 @@ ShallowWrapper {
             ],
             "type": "div",
           },
-          "type": "div",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+    background: url(",
+                "/img/Coffee_bg.jpg",
+                ") no-repeat;
+    height: 260px;
+    background-size: cover;
+    h1 {
+        margin-top: 60px;
+    }
+    ",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
@@ -603,7 +657,7 @@ ShallowWrapper {
               className="container"
             >
               <AboutProductComponent
-                imgSrc="coffee_cup.png"
+                imgSrc="/img/coffee_cup.png"
                 text={
                   <div
                     className="shop__text"
@@ -653,7 +707,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <AboutProductComponent
-                  imgSrc="coffee_cup.png"
+                  imgSrc="/img/coffee_cup.png"
                   text={
                     <div
                       className="shop__text"
@@ -702,7 +756,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "imgSrc": "coffee_cup.png",
+                  "imgSrc": "/img/coffee_cup.png",
                   "text": <div
                     className="shop__text"
                   >
